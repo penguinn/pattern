@@ -9,5 +9,5 @@ func Test_Pattern(t *testing.T) {
 	person = new(Person)
 	person = new(TShirt).SetDecorator(person)
 	person = new(Pants).SetDecorator(person)
-	person.(*Pants).Show()
+	person.Show()
 }
